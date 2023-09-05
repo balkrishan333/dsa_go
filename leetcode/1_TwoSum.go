@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func twoSum(nums []int, target int) []int {
 
 	indexMap := make(map[int]int)
@@ -22,10 +18,10 @@ func twoSum(nums []int, target int) []int {
 	return answer[:]
 }
 
-func main() {
-	nums := [4]int{2, 7, 11, 15}
-	target := 9
-	answer := twoSum(nums[:], target)
+// func main() {
+// 	nums := [4]int{2, 7, 11, 15}
+// 	target := 9
+// 	answer := twoSum(nums[:], target)
 
-	fmt.Println(answer)
-}
+// 	fmt.Println(answer)
+// }
