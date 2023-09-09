@@ -19,11 +19,22 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return answer.Next
 }
 
-func main() {
-	l1 := ListNode{Val: 2}
-	l2 := ListNode{Val: 5}
+// func main() {
+// 	l3 := ListNode{Val: 7}
+// 	l4 := ListNode{Val: 9}
+// 	l1 := ListNode{2, &l3}
+// 	l2 := ListNode{5, &l4}
 
-	fmt.Println(addTwoNumbers(&l1, &l2).Val)
+// 	fmt.Println(addTwoNumbers(&l1, &l2))
+// }
+
+func (ln *ListNode) String() string {
+	str := ""
+
+	for node := ln; node != nil; node = node.Next {
+		str = fmt.Sprint(str, node.Val, ",")
+	}
+	return str
 }
 
 type ListNode struct {
