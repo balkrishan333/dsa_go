@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -53,14 +52,14 @@ func Min(a int, b int) int {
 	return b
 }
 
-func main() {
+// func main() {
 
-	points := [][]int{
-		{0, 0},
-		{2, 2},
-		{3, 10},
-		{5, 2},
-		{7, 0},
-	}
-	fmt.Println(minCostConnectPoints(points))
-}
+// 	points := [][]int{
+// 		{0, 0},
+// 		{2, 2},
+// 		{3, 10},
+// 		{5, 2},
+// 		{7, 0},
+// 	}
+// 	fmt.Println(minCostConnectPoints(points))
+// }
