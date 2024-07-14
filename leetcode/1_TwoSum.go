@@ -19,9 +19,9 @@ func twoSum(nums []int, target int) []int {
 }
 
 // func main() {
-// 	nums := [4]int{2, 7, 11, 15}
+// 	nums := []int{2, 7, 11, 15}
 // 	target := 9
-// 	answer := twoSum(nums[:], target)
+// 	answer := twoSum(nums, target)
 
 // 	fmt.Println(answer)
 // }

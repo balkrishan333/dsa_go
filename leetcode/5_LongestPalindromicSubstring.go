@@ -1,12 +1,12 @@
 package main
 
-import (
-	"fmt"
-)
+// import (
+// 	"fmt"
+// )
 
-func main() {
-	fmt.Print(longestPalindrome("babad"), "\n")
-}
+// func main() {
+// 	fmt.Print(longestPalindrome("babad"), "\n")
+// }
 
 func longestPalindrome(s string) string {
 
