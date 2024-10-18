@@ -19,6 +19,6 @@ func convert(s string, numRows int) string {
 	return result.String()
 }
 
-func main() {
-	println(convert("PAYPALISHIRING", 3))
-}
+// func main() {
+// 	println(convert("PAYPALISHIRING", 3))
+// }
