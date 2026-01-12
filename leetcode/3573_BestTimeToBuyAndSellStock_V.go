@@ -29,6 +29,6 @@ func maximumProfit(prices []int, k int) int64 {
 	return int64(dp[days-1][k][0])
 }
 
-func main() {
-	println(maximumProfit([]int{1, 7, 9, 8, 2}, 2))
-}
+// func main() {
+// 	println(maximumProfit([]int{1, 7, 9, 8, 2}, 2))
+// }
